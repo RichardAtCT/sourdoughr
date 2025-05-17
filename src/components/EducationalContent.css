@@ -1,0 +1,85 @@
+.educational-content {
+  margin-top: 40px;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.educational-content h2 {
+  font-family: 'Merriweather', serif;
+  color: #754c24;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0d6c8;
+  padding-bottom: 15px;
+}
+
+.content-tabs button {
+  padding: 10px 15px;
+  font-size: 0.95rem;
+  border-radius: 5px;
+  background-color: #f5f0e8;
+  border: 1px solid #d6c8b6;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex: 1;
+  min-width: 150px;
+  text-align: center;
+}
+
+.content-tabs button:hover {
+  background-color: #e0d6c8;
+}
+
+.content-tabs button.active {
+  background-color: #c8b6a2;
+  color: white;
+  font-weight: 600;
+}
+
+.content-panel {
+  min-height: 300px;
+}
+
+.tab-content {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.tab-content h3 {
+  font-family: 'Merriweather', serif;
+  color: #5c4c3a;
+  margin-bottom: 15px;
+}
+
+.tab-content h4 {
+  color: #754c24;
+  margin: 20px 0 10px;
+}
+
+.tab-content p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.tab-content ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.tab-content li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}

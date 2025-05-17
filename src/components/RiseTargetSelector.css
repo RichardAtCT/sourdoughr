@@ -1,0 +1,30 @@
+.rise-target-selector {
+  margin-bottom: 20px;
+}
+
+.rise-target-selector label {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #5c4c3a;
+}
+
+.rise-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.rise-buttons button {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.input-note {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #8c7c6a;
+  font-style: italic;
+}

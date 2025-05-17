@@ -1,0 +1,126 @@
+.results-display {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.primary-result {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.primary-result h2 {
+  font-family: 'Merriweather', serif;
+  color: #754c24;
+  margin-bottom: 15px;
+}
+
+.time-result {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.time-range {
+  font-size: 1.1rem;
+  color: #5c4c3a;
+}
+
+.range-label {
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.warning-messages {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #fff8e6;
+  border-left: 4px solid #ffd166;
+  border-radius: 0 5px 5px 0;
+}
+
+.warning-messages h3 {
+  color: #7d6c00;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.warning-messages ul {
+  margin-left: 20px;
+  color: #7d6c00;
+}
+
+.warning-messages li {
+  margin-bottom: 5px;
+}
+
+.completion-calculator {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f5f0;
+  border-radius: 8px;
+}
+
+.completion-calculator h3 {
+  font-family: 'Merriweather', serif;
+  color: #754c24;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.start-time-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.start-time-selector label {
+  font-weight: 600;
+  color: #5c4c3a;
+}
+
+.start-time-selector input[type="time"] {
+  padding: 8px;
+  border: 1px solid #d6c8b6;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.use-current-time {
+  font-size: 0.85rem;
+  padding: 5px 10px;
+}
+
+.completion-time {
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.completion-time h4 {
+  color: #5c4c3a;
+  margin-bottom: 10px;
+}
+
+.completion-time-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.completion-time-display .time {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1e3a8a;
+}
+
+.completion-time-display .date {
+  color: #5c4c3a;
+  font-size: 1.1rem;
+}
