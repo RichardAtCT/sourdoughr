@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sourdoughr/static/css/main.e87b5dde.css",
+    "main.js": "/sourdoughr/static/js/main.f40bc06f.js",
+    "index.html": "/sourdoughr/index.html",
+    "main.e87b5dde.css.map": "/sourdoughr/static/css/main.e87b5dde.css.map",
+    "main.f40bc06f.js.map": "/sourdoughr/static/js/main.f40bc06f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e87b5dde.css",
+    "static/js/main.f40bc06f.js"
+  ]
+}
